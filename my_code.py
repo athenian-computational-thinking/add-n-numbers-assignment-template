@@ -1,13 +1,15 @@
-def inc(x):
-    # User code goes here
-    return x + 1
+def add_n(n):
+    # add code here
+
+    return total
 
 
 if __name__ == '__main__':
     # Test your code with this first
     # Change the argument to try different values
-    print(inc(6))
+    print(add_n(4))
 
     # After you are satisfied with your results, use input() to prompt the user for a value:
-    #v = input("Value to increment: ")
-    #print(inc(int(v)))
+    # num = int(input("Enter a number: "))
+    # print(add_n(num))
+

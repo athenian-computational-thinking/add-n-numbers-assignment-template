@@ -1,26 +1,25 @@
-# Master CT Assignment Template 
-
-Use this master template to create CT Assignment Templates.
-
+# Add n numbers 
 ## Problem Description
-Problem description goes here. 
+The goal of this exercise is to write a function that adds all of the numbers up to a given number.
 
-* Steps to take go here. 
 
-## Example
+## Example 1
 ```
-Value to increment? 5
-10
+Value of n: 4
+>>> 10      # 1 + 2 + 3 + 4 = 10
+```
+
+## Example 2
+```
+Value of n: 3
+>>> 6       # 1 + 2 + 3 = 6
 ```
 
 ## Suggested Approach
-1) Suggestions go here
+1) Use a loop that repeats `n` times
+2) Use a counter and add its value to the total each time
+3) return the total
+4) Test your function with the print statement provided
+5) If desired, modify the code in 'main' to allow the user to input a number.
+6) Test with pytest
 
-## Hints
-* Use `input()` to prompt the user for a value. 
-
-Add code to [my_code.py](./my_code.py) to make it do the desired thing.
-
-Run your code with: `python my_code.py`
-
-Run your tests with: `pytest`
